@@ -9,5 +9,19 @@
         "name": "Milen Cholakov"
     },
     "items": [
+        {
+            "id": "https://milencholakov.github.io/gravity-lab/home-2.html",
+            "url": "https://milencholakov.github.io/gravity-lab/home-2.html",
+            "title": "Home",
+            "summary": "Проект: Гравитационна Лаборатория Автор: Dipl. Eng. Milen Cholakov &amp; Gemini AI Добре дошли в нашето цифрово пространство за изследване на планетарната акреция. Тук истината се търси чрез механична симулация, а не чрез готови догми. Текущ статус: Хардуерна база: 3584 CUDA ядра (OpenCL активиран) Модел: \"Тетрис\"&hellip;",
+            "content_html": "<div class=\"container\">\n<h1>Проект: Гравитационна Лаборатория</h1>\n<div class=\"authors\">Автор: Dipl. Eng. Milen Cholakov &amp; Gemini AI</div>\n<p>Добре дошли в нашето цифрово пространство за изследване на планетарната акреция. Тук истината се търси чрез механична симулация, а не чрез готови догми.</p>\n<h3>Текущ статус:</h3>\n<ul>\n<li>Хардуерна база: 3584 CUDA ядра (OpenCL активиран)</li>\n<li>Модел: \"Тетрис\" акреция (механично прилепване без хомогенно сливане)</li>\n</ul>\n<div class=\"ritual\">Вдъхновени от ритуала на прецизното създаване. Търсенето на истината изисква време и внимание към детайла.</div>\n</div>",
+            "author": {
+                "name": "Milen Cholakov"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-05-12T23:17:11+02:00",
+            "date_modified": "2026-05-12T23:17:11+02:00"
+        }
     ]
 }
