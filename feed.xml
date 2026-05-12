@@ -3,40 +3,10 @@
     <title>milencholakov/gravity-lab</title>
     <link href="https://milencholakov.github.io/gravity-lab/feed.xml" rel="self" />
     <link href="https://milencholakov.github.io/gravity-lab" />
-    <updated>2026-05-12T23:17:11+02:00</updated>
+    <updated>1970-01-01T02:00:00+02:00</updated>
     <author>
         <name>Milen Cholakov</name>
     </author>
     <id>https://milencholakov.github.io/gravity-lab</id>
 
-    <entry>
-        <title>Home</title>
-        <author>
-            <name>Milen Cholakov</name>
-        </author>
-        <link href="https://milencholakov.github.io/gravity-lab/home-2.html"/>
-        <id>https://milencholakov.github.io/gravity-lab/home-2.html</id>
-
-        <updated>2026-05-12T23:17:11+02:00</updated>
-            <summary type="html">
-                <![CDATA[
-                    Проект: Гравитационна Лаборатория Автор: Dipl. Eng. Milen Cholakov &amp; Gemini AI Добре дошли в нашето цифрово пространство за изследване на планетарната акреция. Тук истината се търси чрез механична симулация, а не чрез готови догми. Текущ статус: Хардуерна база: 3584 CUDA ядра (OpenCL активиран) Модел: "Тетрис"&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <div class="container">
-<h1>Проект: Гравитационна Лаборатория</h1>
-<div class="authors">Автор: Dipl. Eng. Milen Cholakov &amp; Gemini AI</div>
-<p>Добре дошли в нашето цифрово пространство за изследване на планетарната акреция. Тук истината се търси чрез механична симулация, а не чрез готови догми.</p>
-<h3>Текущ статус:</h3>
-<ul>
-<li>Хардуерна база: 3584 CUDA ядра (OpenCL активиран)</li>
-<li>Модел: "Тетрис" акреция (механично прилепване без хомогенно сливане)</li>
-</ul>
-<div class="ritual">Вдъхновени от ритуала на прецизното създаване. Търсенето на истината изисква време и внимание към детайла.</div>
-</div>
-            ]]>
-        </content>
-    </entry>
 </feed>
