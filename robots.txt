@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://milencholakov.github.io/gravity-lab/sitemap.xml
