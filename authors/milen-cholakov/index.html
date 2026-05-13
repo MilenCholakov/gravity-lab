@@ -9,4 +9,37 @@
                     this.classList.add('is-loaded');
                 }, false);
             }
-        }</script></body></html>
+        }</script><div id="language-switcher" style="position: fixed; top: 100px; right: 20px; z-index: 10000; background: rgba(0,0,0,0.85); padding: 10px; border-radius: 6px; border: 1px solid #444; display: flex; flex-direction: column; gap: 10px; align-items: center;"><a href="javascript:void(0)" onclick="changeLang('bg')" style="text-decoration: none; font-size: 20px;">🇧🇬</a> <a href="javascript:void(0)" onclick="changeLang('en')" style="text-decoration: none; font-size: 20px;">🇺🇸</a> <a href="javascript:void(0)" onclick="changeLang('de')" style="text-decoration: none; font-size: 20px;">🇩🇪</a> <a href="javascript:void(0)" onclick="changeLang('fr')" style="text-decoration: none; font-size: 20px;">🇫🇷</a> <a href="javascript:void(0)" onclick="changeLang('ru')" style="text-decoration: none; font-size: 20px;">🇷🇺</a> <a href="javascript:void(0)" onclick="changeLang('es')" style="text-decoration: none; font-size: 20px;">🇪🇸</a> <a href="javascript:void(0)" onclick="changeLang('zh-CN')" style="text-decoration: none; font-size: 20px;">🇨🇳</a> <a href="javascript:void(0)" onclick="changeLang('ja')" style="text-decoration: none; font-size: 20px;">🇯🇵</a></div><div id="google_translate_element" style="display:none!important;"></div><script type="text/javascript">// Зареждаме скрипта динамично, за да не "плашим" GitHub при синхронизация
+    function loadGoogleTranslate() {
+        var s = document.createElement('script');
+        s.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+        document.body.appendChild(s);
+    }
+    
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'bg', includedLanguages: 'bg,en,de,fr,ru,es,zh-CN,ja', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+    }
+
+    function changeLang(lang) {
+        var select = document.querySelector("select.goog-te-combo");
+        if (select) { 
+            select.value = lang; 
+            select.dispatchEvent(new Event('change')); 
+        }
+        document.cookie = "googtrans=/bg/" + lang + "; expires=" + new Date(Date.now() + 2592000000).toUTCString() + "; path=/";
+        location.reload();
+    }
+    
+    window.onload = loadGoogleTranslate;</script><style>/* Пълно унищожаване на лентата на Google */
+    iframe.goog-te-banner-frame, 
+    .goog-te-banner-frame, 
+    #goog-gt-tt, 
+    .goog-te-balloon-frame { display: none !important; visibility: hidden !important; }
+    
+    /* Форсиране на нулев отстъп горе */
+    html { padding-top: 0 !important; }
+    body { top: 0 !important; position: static !important; }
+    
+    /* Скриване на излишните подсказки */
+    .skiptranslate { display: none !important; }
+    #language-switcher.skiptranslate { display: flex !important; } /* Показваме само нашите знаменца */</style></body></html>
