@@ -9,15 +9,4 @@
                     this.classList.add('is-loaded');
                 }, false);
             }
-        }</script><div id="language-switcher" style="position: fixed; top: 100px; right: 20px; z-index: 10000; background: rgba(0,0,0,0.85); padding: 10px; border-radius: 6px; border: 1px solid #444; display: flex; flex-direction: column; gap: 10px; align-items: center;"><a href="javascript:void(0)" onclick="changeLang('bg')" style="text-decoration: none; font-size: 20px;">🇧🇬</a> <a href="javascript:void(0)" onclick="changeLang('en')" style="text-decoration: none; font-size: 20px;">🇺🇸</a> <a href="javascript:void(0)" onclick="changeLang('de')" style="text-decoration: none; font-size: 20px;">🇩🇪</a> <a href="javascript:void(0)" onclick="changeLang('fr')" style="text-decoration: none; font-size: 20px;">🇫🇷</a> <a href="javascript:void(0)" onclick="changeLang('ru')" style="text-decoration: none; font-size: 20px;">🇷🇺</a> <a href="javascript:void(0)" onclick="changeLang('es')" style="text-decoration: none; font-size: 20px;">🇪🇸</a> <a href="javascript:void(0)" onclick="changeLang('zh-CN')" style="text-decoration: none; font-size: 20px;">🇨🇳</a> <a href="javascript:void(0)" onclick="changeLang('ja')" style="text-decoration: none; font-size: 20px;">🇯🇵</a></div><div id="google_translate_element" style="display:none;"></div><script type="text/javascript">function googleTranslateElementInit() {
-        new google.translate.TranslateElement({pageLanguage: 'bg', includedLanguages: 'bg,en,de,fr,ru,es,zh-CN,ja', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
-    }
-    function changeLang(lang) {
-        var select = document.querySelector("select.goog-te-combo");
-        if (select) { select.value = lang; select.dispatchEvent(new Event('change')); }
-        document.cookie = "googtrans=/bg/" + lang + "; expires=" + new Date(Date.now() + 2592000000).toUTCString() + "; path=/";
-        location.reload();
-    }</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script><style>/* Премахва лентата и засенчването */
-    iframe.goog-te-banner-frame, .goog-te-banner-frame.skiptranslate, #goog-gt-tt { display: none !important; }
-    body { top: 0px !important; position: static !important; }
-    .goog-text-highlight { background: transparent !important; box-shadow: none !important; }</style></body></html>
+        }</script></body></html>
