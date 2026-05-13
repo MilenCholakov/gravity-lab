@@ -3,10 +3,58 @@
     <title>The Gravity Lab</title>
     <link href="https://milencholakov.github.io/gravity-lab/feed.xml" rel="self" />
     <link href="https://milencholakov.github.io/gravity-lab" />
-    <updated>1970-01-01T02:00:00+02:00</updated>
+    <updated>2026-05-13T18:05:29+02:00</updated>
     <author>
         <name>Milen Cholakov</name>
     </author>
     <id>https://milencholakov.github.io/gravity-lab</id>
 
+    <entry>
+        <title>Увод</title>
+        <author>
+            <name>Milen Cholakov</name>
+        </author>
+        <link href="https://milencholakov.github.io/gravity-lab/test/"/>
+        <id>https://milencholakov.github.io/gravity-lab/test/</id>
+
+        <updated>2026-05-13T18:01:27+02:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Преди да представим нашите логически доказателства за регистрираните гравитационни аномалии, дефинираме класическите&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</p>
+<div class="gravity-container">
+<h1>Теоретични основи: Проект "The Gravity Lab"</h1>
+<p>Преди да представим нашите логически доказателства за регистрираните гравитационни аномалии, дефинираме класическите стълбове на съвременната физика.</p>
+<h2>1. Закон за всеобщото привличане (Нютон)</h2>
+<p>Гравитацията е сила, действаща по права линия между центровете на две маси.</p>
+<div class="formula-box">$$F = G \frac{m_1 m_2}{r^2}$$</div>
+<div class="pic-placeholder"><figure class="post__image"><img loading="lazy"  src="https://milencholakov.github.io/gravity-lab/media/posts/11/Pic-1.png" alt="" width="1408" height="768" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://milencholakov.github.io/gravity-lab/media/posts/11/responsive/Pic-1-xs.png 320w ,https://milencholakov.github.io/gravity-lab/media/posts/11/responsive/Pic-1-sm.png 480w ,https://milencholakov.github.io/gravity-lab/media/posts/11/responsive/Pic-1-md.png 768w ,https://milencholakov.github.io/gravity-lab/media/posts/11/responsive/Pic-1-xl.png 1024w"></figure></div>
+<h2>2. Динамика и Векторни Траектории</h2>
+<p>Траекторията на всяко тяло е резултат от векторното сумиране на неговата инерция и гравитационното привличане.</p>
+<figure class="post__image"><img loading="lazy"  src="https://milencholakov.github.io/gravity-lab/media/posts/11/Pic-3.png" alt="" width="1408" height="768" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://milencholakov.github.io/gravity-lab/media/posts/11/responsive/Pic-3-xs.png 320w ,https://milencholakov.github.io/gravity-lab/media/posts/11/responsive/Pic-3-sm.png 480w ,https://milencholakov.github.io/gravity-lab/media/posts/11/responsive/Pic-3-md.png 768w ,https://milencholakov.github.io/gravity-lab/media/posts/11/responsive/Pic-3-xl.png 1024w"></figure>
+<h3>Законите на Кеплер:</h3>
+<ul>
+<li><strong>I Закон:</strong> Орбитите са елипси.</li>
+<li><strong>II Закон:</strong> Площната скорост е постоянна (телата се ускоряват близо до центъра).</li>
+<li><strong>III Закон:</strong> \(T^2 \propto a^3\).</li>
+</ul>
+<h2>3. Системи от три тела: Геометрия на баланса</h2>
+<p>В "The Gravity Lab" изследваме как локални промени в плътността влияят на обектите чрез "Gravity Shift".</p>
+<p> </p>
+<div class="pic-placeholder"><figure class="post__image"><img loading="lazy"  src="https://milencholakov.github.io/gravity-lab/media/posts/11/Pic-2.png" alt="" width="1408" height="768" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://milencholakov.github.io/gravity-lab/media/posts/11/responsive/Pic-2-xs.png 320w ,https://milencholakov.github.io/gravity-lab/media/posts/11/responsive/Pic-2-sm.png 480w ,https://milencholakov.github.io/gravity-lab/media/posts/11/responsive/Pic-2-md.png 768w ,https://milencholakov.github.io/gravity-lab/media/posts/11/responsive/Pic-2-xl.png 1024w"></figure></div>
+<h2>4. Гравитация в дълбочина (Shell Theorem)</h2>
+<p>Според теоремата на обвивката, масата "над" нас под земната повърхност не оказва влияние, тъй като нейните вектори се анулират.</p>
+<p> </p>
+<div class="pic-placeholder"><figure class="post__image"><img loading="lazy"  src="https://milencholakov.github.io/gravity-lab/media/posts/11/Forces.jpg" alt="" width="1024" height="559" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://milencholakov.github.io/gravity-lab/media/posts/11/responsive/Forces-xs.jpg 320w ,https://milencholakov.github.io/gravity-lab/media/posts/11/responsive/Forces-sm.jpg 480w ,https://milencholakov.github.io/gravity-lab/media/posts/11/responsive/Forces-md.jpg 768w ,https://milencholakov.github.io/gravity-lab/media/posts/11/responsive/Forces-xl.jpg 1024w"></figure></div>
+</div>
+            ]]>
+        </content>
+    </entry>
 </feed>
