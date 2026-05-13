@@ -10,19 +10,5 @@
         "name": "Milen Cholakov"
     },
     "items": [
-        {
-            "id": "https://milencholakov.github.io/gravity-lab/first-post/",
-            "url": "https://milencholakov.github.io/gravity-lab/first-post/",
-            "title": "First post",
-            "summary": "\\( F = G \\frac{m_1 m_2}{r^2} \\)",
-            "content_html": "<p>\\( F = G \\frac{m_1 m_2}{r^2} \\)</p>",
-            "author": {
-                "name": "Milen Cholakov"
-            },
-            "tags": [
-            ],
-            "date_published": "2026-05-13T09:21:00+02:00",
-            "date_modified": "2026-05-13T09:21:00+02:00"
-        }
     ]
 }
