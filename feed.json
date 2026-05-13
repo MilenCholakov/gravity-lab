@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "milencholakov/gravity-lab",
+    "title": "The Gravity Lab",
     "description": "",
     "home_page_url": "https://milencholakov.github.io/gravity-lab",
     "feed_url": "https://milencholakov.github.io/gravity-lab/feed.json",
@@ -9,5 +9,19 @@
         "name": "Milen Cholakov"
     },
     "items": [
+        {
+            "id": "https://milencholakov.github.io/gravity-lab/first-post.html",
+            "url": "https://milencholakov.github.io/gravity-lab/first-post.html",
+            "title": "First post",
+            "summary": "\\( F = G \\frac{m_1 m_2}{r^2} \\)",
+            "content_html": "<p>\\( F = G \\frac{m_1 m_2}{r^2} \\)</p>",
+            "author": {
+                "name": "Milen Cholakov"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-05-13T09:21:00+02:00",
+            "date_modified": "2026-05-13T09:21:00+02:00"
+        }
     ]
 }
