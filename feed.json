@@ -5,13 +5,14 @@
     "home_page_url": "https://milencholakov.github.io/gravity-lab",
     "feed_url": "https://milencholakov.github.io/gravity-lab/feed.json",
     "user_comment": "",
+    "icon": "https://milencholakov.github.io/gravity-lab/media/website/3094102.jpg",
     "author": {
         "name": "Milen Cholakov"
     },
     "items": [
         {
-            "id": "https://milencholakov.github.io/gravity-lab/first-post.html",
-            "url": "https://milencholakov.github.io/gravity-lab/first-post.html",
+            "id": "https://milencholakov.github.io/gravity-lab/first-post/",
+            "url": "https://milencholakov.github.io/gravity-lab/first-post/",
             "title": "First post",
             "summary": "\\( F = G \\frac{m_1 m_2}{r^2} \\)",
             "content_html": "<p>\\( F = G \\frac{m_1 m_2}{r^2} \\)</p>",
