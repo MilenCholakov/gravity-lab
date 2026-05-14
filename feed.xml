@@ -3,7 +3,7 @@
     <title>The Gravity Lab</title>
     <link href="https://milencholakov.github.io/gravity-lab/feed.xml" rel="self" />
     <link href="https://milencholakov.github.io/gravity-lab" />
-    <updated>2026-05-14T14:24:35+02:00</updated>
+    <updated>2026-05-14T14:28:38+02:00</updated>
     <author>
         <name>Milen Cholakov</name>
     </author>
@@ -81,7 +81,7 @@
 <hr style="border: 0; border-top: 1px solid #333; margin: 40px 0;">
 <div style="background: #050505; border: 1px solid #111; padding: 30px; color: #ccc;">
 <h4 style="color: #fff; text-transform: uppercase; letter-spacing: 1px; font-family: monospace; margin-bottom: 25px;">Софтуерна Архитектура и GPU Оптимизация</h4>
-<p style="margin-bottom: 20px; line-height: 1.6;">Изчисляването на гравитационните взаимодействия между всяка двойка обекти има сложност <strong>O(N²)</strong>. При 2,000 клетки това означава над 4 милиона калкулации на всяка под-стъпка. За постигане на обработка в реално време, изчисленията са изнесени към графичния ускорител (OpenCL/CUDA) посредством високооптимизиран паралелен конвейер.</p>
+<p style="margin-bottom: 20px; line-height: 1.6;">Изчисляването на гравитационните взаимодействия между всяка двойка обекти има сложност <strong>$$O(N²)$$ </strong>. При 2,000 клетки това означава над 4 милиона калкулации на всяка под-стъпка. За постигане на обработка в реално време, изчисленията са изнесени към графичния ускорител (OpenCL/CUDA) посредством високооптимизиран паралелен конвейер.</p>
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 25px; margin: 25px 0;">
 <div style="padding: 20px; background: #0a0a0a; border: 1px solid #222;"><strong style="color: #00ff00; display: block; margin-bottom: 10px; font-family: monospace;">Sub-Stepping (8x)</strong> <span style="font-size: 0.9rem; color: #888;">Всеки графичен кадър съдържа 8 вътрешни физически итерации. Това гарантира, че бързодвижещите се частици няма да „прескочат“ през съседните си обекти, запазвайки коравината на планетарното тяло.</span></div>
 <div style="padding: 20px; background: #0a0a0a; border: 1px solid #222;"><strong style="color: #00ff00; display: block; margin-bottom: 10px; font-family: monospace;">Contact Physics</strong> <span style="font-size: 0.9rem; color: #888;">Използва се алгоритъм за геометрично отместване (Overlap Correction). При допир обектите се раздалечават векторно, симулирайки твърда повърхност без излишно софтуерно забавяне.</span></div>
