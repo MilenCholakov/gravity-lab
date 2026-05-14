@@ -11,6 +11,42 @@
     },
     "items": [
         {
+            "id": "https://milencholakov.github.io/gravity-lab/model-planetoid-formation/",
+            "url": "https://milencholakov.github.io/gravity-lab/model-planetoid-formation/",
+            "title": "model-planetoid-formation",
+            "author": {
+                "name": "Milen Cholakov"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-05-14T11:33:21+02:00",
+            "date_modified": "2026-05-14T11:33:21+02:00"
+        },
+        {
+            "id": "https://milencholakov.github.io/gravity-lab/model-earth-gravity-2/",
+            "url": "https://milencholakov.github.io/gravity-lab/model-earth-gravity-2/",
+            "title": "model-earth-gravity",
+            "author": {
+                "name": "Milen Cholakov"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-05-14T11:33:04+02:00",
+            "date_modified": "2026-05-14T11:33:04+02:00"
+        },
+        {
+            "id": "https://milencholakov.github.io/gravity-lab/model-universal-inputs/",
+            "url": "https://milencholakov.github.io/gravity-lab/model-universal-inputs/",
+            "title": "model-universal-inputs",
+            "author": {
+                "name": "Milen Cholakov"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-05-14T11:32:46+02:00",
+            "date_modified": "2026-05-14T11:32:46+02:00"
+        },
+        {
             "id": "https://milencholakov.github.io/gravity-lab/model-earth-gravity/",
             "url": "https://milencholakov.github.io/gravity-lab/model-earth-gravity/",
             "title": "Мodel Еarth Gravity",
