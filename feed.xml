@@ -3,12 +3,24 @@
     <title>The Gravity Lab</title>
     <link href="https://milencholakov.github.io/gravity-lab/feed.xml" rel="self" />
     <link href="https://milencholakov.github.io/gravity-lab" />
-    <updated>2026-05-14T12:26:23+02:00</updated>
+    <updated>2026-05-14T13:28:29+02:00</updated>
     <author>
         <name>Milen Cholakov</name>
     </author>
     <id>https://milencholakov.github.io/gravity-lab</id>
 
+    <entry>
+        <title>model-gravity-paradox</title>
+        <author>
+            <name>Milen Cholakov</name>
+        </author>
+        <link href="https://milencholakov.github.io/gravity-lab/gravity-paradox/"/>
+        <id>https://milencholakov.github.io/gravity-lab/gravity-paradox/</id>
+
+        <updated>2026-05-14T13:27:23+02:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
     <entry>
         <title>model-planetoid-formation</title>
         <author>
@@ -32,14 +44,26 @@
         <updated>2026-05-14T11:33:04+02:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Earth gravity forces and parts movement simulation Full Screen
+                    Earth gravity forces and parts movement simulation Динамична Цветова Спектрограма Синьо (Студени&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p> </p>
+                <p><strong><em>Earth gravity forces and parts movement simulation</em></strong></p>
 <figure class="post__video"><a href="https://milencholakov.github.io/gravity-lab/bandicam 2026-05-12 17-45-54-088.mp4"><video loading="lazy" width="800" height="600" style="width: 800px; height: 600px;" controls="controls"><source src="https://milencholakov.github.io/gravity-lab/bandicam 2026-05-12 17-45-54-088.mp4" type="video/mp4" /></video></a></figure>
-<figure class="post__video"><a href="https://milencholakov.github.io/gravity-lab/bandicam 2026-05-12 17-45-54-088.mp4" download>Earth gravity forces and parts movement simulation Full Screen</a></figure>
+<hr style="border: 0; border-top: 1px solid #333; margin: 20px 0;">
+<h4 style="color: #00ff00; text-transform: uppercase; letter-spacing: 1px;">Динамична Цветова Спектрограма</h4>
+<div style="display: flex; flex-direction: column; gap: 10px;">
+<div style="display: flex; align-items: center;">
+<div style="width: 20px; height: 20px; background: #0000ff; margin-right: 15px; border-radius: 2px;"> </div>
+<strong>Синьо (Студени зони):</strong> Стабилни маси с ниска скорост. Тук гравитационните сили са уравновесени или обектите са в покой.</div>
+<div style="display: flex; align-items: center;">
+<div style="width: 20px; height: 20px; background: #ffff00; margin-right: 15px; border-radius: 2px;"> </div>
+<strong>Жълто (Активни зони):     </strong>Висока гравитация. Зони на активно привличане, където векторите на силата променят траекторията на масите.</div>
+<div style="display: flex; align-items: center;">
+<div style="width: 20px; height: 20px; background: #ff0000; margin-right: 15px; border-radius: 2px;"> </div>
+<strong>Червено (Критични зони):</strong> Максимална гравитационна енергия. Показва сблъсъци или екстремни температури и налягания  (акреция).</div>
+</div>
             ]]>
         </content>
     </entry>
