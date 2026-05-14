@@ -3,7 +3,7 @@
     <title>The Gravity Lab</title>
     <link href="https://milencholakov.github.io/gravity-lab/feed.xml" rel="self" />
     <link href="https://milencholakov.github.io/gravity-lab" />
-    <updated>2026-05-14T12:13:36+02:00</updated>
+    <updated>2026-05-14T12:19:25+02:00</updated>
     <author>
         <name>Milen Cholakov</name>
     </author>
@@ -32,12 +32,15 @@
         <updated>2026-05-14T11:33:04+02:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Earth gravity forces and parts movement simulation
+                    Earth gravity forces and parts movement simulation Full Screen
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p><a href="https://milencholakov.github.io/gravity-lab/bandicam 2026-05-12 17-45-54-088.mp4" download>Earth gravity forces and parts movement simulation</a></p>
+                <p> </p>
+<figure class="post__video"><a href="https://milencholakov.github.io/gravity-lab/bandicam 2026-05-12 17-45-54-088.mp4" download><video loading="lazy" width="800" height="600" style="width: 356px; height: 177px;" controls="controls"><source src="bandicam 2026-05-12 17-45-54-088.mp4" type="video/mp4" /></video></a></figure>
+<p><a href="https://milencholakov.github.io/gravity-lab/bandicam 2026-05-12 17-45-54-088.mp4" download>Earth gravity forces and parts movement simulation Full Screen</a></p>
+<p> </p>
             ]]>
         </content>
     </entry>
