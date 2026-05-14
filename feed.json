@@ -11,6 +11,32 @@
     },
     "items": [
         {
+            "id": "https://milencholakov.github.io/gravity-lab/model-earth-gravity/",
+            "url": "https://milencholakov.github.io/gravity-lab/model-earth-gravity/",
+            "title": "Мodel Еarth Gravity",
+            "author": {
+                "name": "Milen Cholakov"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-05-14T11:11:29+02:00",
+            "date_modified": "2026-05-14T11:12:27+02:00"
+        },
+        {
+            "id": "https://milencholakov.github.io/gravity-lab/modeli/",
+            "url": "https://milencholakov.github.io/gravity-lab/modeli/",
+            "title": "Модели",
+            "summary": "МАТЕМАТИЧЕСКИ МОДЕЛИ [ КАТАЛОГ НА ИЗЧИСЛИТЕЛНИТЕ СРЕДИ И ЯДРА ] Тук са&hellip;",
+            "content_html": "<section style=\"padding: 20px 0; border-bottom: 1px solid #333; margin-bottom: 40px;\">\n<h1 style=\"color: #fff; letter-spacing: -1px;\">МАТЕМАТИЧЕСКИ МОДЕЛИ</h1>\n<p style=\"font-family: monospace; color: #888;\">[ КАТАЛОГ НА ИЗЧИСЛИТЕЛНИТЕ СРЕДИ И ЯДРА ]</p>\n</section>\n<div style=\"line-height: 1.7; color: #ccc; margin-bottom: 50px;\">\n<p>Тук са дефинирани базовите архитектури на компютърните симулации в <strong>The Gravity Lab</strong>. Всеки модел съдържа математическо описание, физически уравнения и софтуерна OpenCL/CUDA имплементация, работеща в реално време.</p>\n</div>\n<div style=\"display: flex; flex-direction: column; gap: 25px;\">\n<div style=\"padding: 20px; background: #0a0a0a; border: 1px solid #222; border-left: 2px solid #00ff00;\">\n<div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;\">\n<h3 style=\"margin: 0; font-size: 1.2rem;\"><a href=\"/model-earth-gravity/\" style=\"color: #fff; text-decoration: none;\">3.1 Гравитационен модел на Земята</a></h3>\n<span style=\"font-family: monospace; color: #00ff00; font-size: 0.85rem;\">[FINISHED]</span></div>\n<p style=\"color: #666; font-size: 0.95rem; margin-bottom: 15px;\">Изследване на гравитационното ускорение през хомогенни и нехомогенни геоидни слоеве. Базова Нютонова математика.</p>\n<div style=\"font-size: 0.85rem;\"><a href=\"/model-earth-gravity/\" style=\"color: #00ff00; text-decoration: none; font-weight: bold;\">[ Описание и Код ]</a> <span style=\"color: #333; margin: 0 10px;\">|</span> <a href=\"/visualizations-hub/#res-3-1\" style=\"color: #888; text-decoration: none;\">[ Симулация (Модул IV) ]</a></div>\n</div>\n<div style=\"padding: 20px; background: #0a0a0a; border: 1px solid #222; border-left: 2px solid #f1c40f;\">\n<div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;\">\n<h3 style=\"margin: 0; font-size: 1.2rem;\"><a href=\"/model-universal-inputs/\" style=\"color: #fff; text-decoration: none; opacity: 0.6;\">3.2 Универсален модел с динамични входни параметри</a></h3>\n<span style=\"font-family: monospace; color: #f1c40f; font-size: 0.85rem;\">[WIP - IN WORK]</span></div>\n<p style=\"color: #555; font-size: 0.95rem; margin-bottom: 15px;\">Универсално ядро за симулация с променлива дебелина на обвивката, плътност на средата и въвеждане на субективни координати (Тапа).</p>\n<div style=\"font-size: 0.85rem;\"><a href=\"/model-universal-inputs/\" style=\"color: #f1c40f; text-decoration: none;\">[ Към Скелета ]</a> <span style=\"color: #333; margin: 0 10px;\">|</span> <span style=\"color: #444;\">[ Липсват резултати ]</span></div>\n</div>\n<div style=\"padding: 20px; background: #0a0a0a; border: 1px solid #222; border-left: 2px solid #e74c3c;\">\n<div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;\">\n<h3 style=\"margin: 0; font-size: 1.2rem;\"><a href=\"/model-planetoid-formation/\" style=\"color: #fff; text-decoration: none; opacity: 0.4;\">3.3 Формиране на планетоид (Акреция на клъстери)</a></h3>\n<span style=\"font-family: monospace; color: #e74c3c; font-size: 0.85rem;\">[STAGED - NONE]</span></div>\n<p style=\"color: #444; font-size: 0.95rem; margin-bottom: 15px;\">Моделиране на физичния тетрис: от астероиден прах до монолитно тяло под въздействието на Закона на Гаус и критична термо-маса.</p>\n<div style=\"font-size: 0.85rem;\"><a href=\"/model-planetoid-formation/\" style=\"color: #e74c3c; text-decoration: none;\">[ Концепция ]</a> <span style=\"color: #333; margin: 0 10px;\">|</span> <span style=\"color: #444;\">[ Липсват резултати ]</span></div>\n</div>\n</div>",
+            "author": {
+                "name": "Milen Cholakov"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-05-14T11:10:44+02:00",
+            "date_modified": "2026-05-14T11:10:44+02:00"
+        },
+        {
             "id": "https://milencholakov.github.io/gravity-lab/accretion/",
             "url": "https://milencholakov.github.io/gravity-lab/accretion/",
             "title": "Accretion",
