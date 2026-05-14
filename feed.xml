@@ -3,7 +3,7 @@
     <title>The Gravity Lab</title>
     <link href="https://milencholakov.github.io/gravity-lab/feed.xml" rel="self" />
     <link href="https://milencholakov.github.io/gravity-lab" />
-    <updated>2026-05-14T14:11:59+02:00</updated>
+    <updated>2026-05-14T14:15:12+02:00</updated>
     <author>
         <name>Milen Cholakov</name>
     </author>
@@ -67,7 +67,7 @@
 <div style="display: flex; flex-direction: column; gap: 15px; color: #ccc; background: #070707; padding: 25px; border-radius: 4px; border: 1px solid #151515;">
 <div style="display: flex; align-items: center;">
 <div style="width: 30px; height: 15px; background: #0000ff; margin-right: 20px; border-radius: 1px;"> </div>
-<strong>Ниска активност (Blue):</strong> Векторна сума на силите $\approx 0$. Обектите са в състояние на хидростатично равновесие.</div>
+<strong>Ниска активност (Blue):</strong> Векторна сума на силите ≈ 0. Обектите са в състояние на хидростатично равновесие.</div>
 <div style="display: flex; align-items: center;">
 <div style="width: 30px; height: 15px; background: #00ff00; margin-right: 20px; border-radius: 1px;"> </div>
 <strong>Стабилен преход (Green):</strong> Балансирано движение. Зона на формиране на стабилни пластове.</div>
