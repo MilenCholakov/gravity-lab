@@ -3,7 +3,7 @@
     <title>The Gravity Lab</title>
     <link href="https://milencholakov.github.io/gravity-lab/feed.xml" rel="self" />
     <link href="https://milencholakov.github.io/gravity-lab" />
-    <updated>2026-05-14T13:42:32+02:00</updated>
+    <updated>2026-05-14T13:58:47+02:00</updated>
     <author>
         <name>Milen Cholakov</name>
     </author>
@@ -44,26 +44,45 @@
         <updated>2026-05-14T11:33:04+02:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Earth gravity forces and parts movement simulation Динамична Цветова Спектрограма Синьо (Студени&hellip;
+                    Earth gravity forces and parts movement simulation Моделът симулира динамиката на 124,000&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p><strong><em>Earth gravity forces and parts movement simulation</em></strong></p>
-<figure class="post__video"><a href="https://milencholakov.github.io/gravity-lab/bandicam 2026-05-12 17-45-54-088.mp4"><video loading="lazy" width="800" height="600" style="width: 800px; height: 600px;" controls="controls"><source src="https://milencholakov.github.io/gravity-lab/bandicam 2026-05-12 17-45-54-088.mp4" type="video/mp4" /></video></a></figure>
+<figure class="post__video"><a href="https://milencholakov.github.io/gravity-lab/bandicam 2026-05-12 17-45-54-088.mp4"> <video loading="lazy" width="800" height="600" style="width: 100%; max-width: 800px; height: auto;" controls="controls">
+            <source src="https://milencholakov.github.io/gravity-lab/bandicam 2026-05-12 17-45-54-088.mp4" type="video/mp4" />
+        </video> </a></figure>
 <hr style="border: 0; border-top: 1px solid #333; margin: 20px 0;">
-<h4 style="color: #00ff00; text-transform: uppercase; letter-spacing: 1px;">Динамична Цветова Спектрограма</h4>
-<div style="display: flex; flex-direction: column; gap: 10px;">
-<div style="display: flex; align-items: center;">
-<div style="width: 20px; height: 20px; background: #0000ff; margin-right: 15px; border-radius: 2px;"> </div>
-<strong>Синьо (Студени зони):</strong> Стабилни маси с ниска скорост. Тук гравитационните сили са уравновесени или обектите са в покой.</div>
-<div style="display: flex; align-items: center;">
-<div style="width: 20px; height: 20px; background: #ffff00; margin-right: 15px; border-radius: 2px;"> </div>
-<strong>Жълто (Активни зони):     </strong>Висока гравитация. Зони на активно привличане, където векторите на силата променят траекторията на масите.</div>
-<div style="display: flex; align-items: center;">
-<div style="width: 20px; height: 20px; background: #ff0000; margin-right: 15px; border-radius: 2px;"> </div>
-<strong>Червено (Критични зони):</strong> Максимална гравитационна енергия. Показва сблъсъци или екстремни температури и налягания  (акреция).</div>
+<div style="background: #0a0a0a; border: 1px solid #222; padding: 25px; margin-bottom: 30px; color: #ccc;">
+<h4 style="color: #00ff00; margin-top: 0; text-transform: uppercase; letter-spacing: 1px; font-family: monospace;">[ МАТЕМАТИЧЕСКИ МОДЕЛ 3.1 ]</h4>
+<p style="font-size: 0.95rem;">Моделът симулира динамиката на <strong>124,000 дискретни обекта</strong>, формиращи планетарно тяло. Всяка единица ("тухличка") се движи под влиянието на сумарното гравитационно поле, изчислено чрез принципа на векторната суперпозиция.</p>
+<div style="background: #111; padding: 15px; border-radius: 4px; margin: 15px 0; text-align: center;">
+<p style="color: #fff; margin-bottom: 10px; font-size: 0.9rem;">Основно уравнение на движението:</p>
+<span style="font-size: 1.2rem; color: #00ff00;">$$\mathbf{a}_i = \sum_{j \neq i}^{N} \frac{G \cdot m_j}{|\mathbf{r}_{ij}|^2} \hat{\mathbf{r}}_{ij}$$</span></div>
+<p style="font-size: 0.9rem; color: #888;">Използването на <strong>2D екваториален разрез</strong> позволява наблюдение на вътрешната диференциация на слоевете, която в 3D би останала скрита зад повърхността. Мащабът е фиксиран спрямо теоретичния радиус на Земята ($R \approx 6,371$ km), дискретизиран в симулационното пространство.</p>
 </div>
+<h4 style="color: #00ff00; text-transform: uppercase; letter-spacing: 1px; font-family: monospace;">Динамична Цветова Спектрограма</h4>
+<div style="display: flex; flex-direction: column; gap: 12px; color: #ccc;">
+<div style="display: flex; align-items: center;">
+<div style="width: 20px; height: 20px; background: #0000ff; margin-right: 15px; border-radius: 2px; flex-shrink: 0;"> </div>
+<strong>Синьо (Студени зони):</strong> Стабилни маси с ниска скорост. Тук гравитационните сили са уравновесени или обектите са в относително покой.</div>
+<div style="display: flex; align-items: center;">
+<div style="width: 20px; height: 20px; background: #00ff00; margin-right: 15px; border-radius: 2px; flex-shrink: 0;"> </div>
+<strong>Зелено (Зони на преход):</strong> Стабилизирани орбити. Баланс между центростремителното ускорение и инерцията на "тухличките".</div>
+<div style="display: flex; align-items: center;">
+<div style="width: 20px; height: 20px; background: #ffff00; margin-right: 15px; border-radius: 2px; flex-shrink: 0;"> </div>
+<strong>Жълто (Активни зони):</strong> Висока гравитационна динамика. Зони на активно привличане, където векторите на силата рязко променят траекториите.</div>
+<div style="display: flex; align-items: center;">
+<div style="width: 20px; height: 20px; background: #ff0000; margin-right: 15px; border-radius: 2px; flex-shrink: 0;"> </div>
+<strong>Червено (Критични зони):</strong> Максимална енергия. Сблъсъци, екстремно налягане и термодинамична активност в центъра на акрецията.</div>
+</div>
+<p style="margin-top: 30px; font-style: italic; color: #555; font-size: 0.8rem; border-top: 1px solid #222; padding-top: 10px;">*Забележка: Броят на симулираните елементи (2000) е подбран за постигане на оптимален баланс между изчислителна плътност и визуална яснота на "гравитационния модел".</p>
+<ul style="list-style: none; padding: 0; font-size: 0.9rem; color: #888;">
+<li style="margin-bottom: 8px;"><strong>● Под-стъпки (Sub-steps):</strong> 8 итерации за всеки кадър, гарантиращи "коравина" на кристалната решетка.</li>
+<li style="margin-bottom: 8px;"><strong>● Взаимодействие:</strong> Пълен N-Body алгоритъм ($O(N^2)$), при който всяка тухличка изпитва силата на всички останали.</li>
+<li style="margin-bottom: 8px;"><strong>● Центробежна компонента:</strong> Симулацията включва ъглова скорост ($\omega$), която балансира гравитационното свиване.</li>
+</ul>
             ]]>
         </content>
     </entry>
