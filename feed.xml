@@ -3,7 +3,7 @@
     <title>The Gravity Lab</title>
     <link href="https://milencholakov.github.io/gravity-lab/feed.xml" rel="self" />
     <link href="https://milencholakov.github.io/gravity-lab" />
-    <updated>2026-05-14T13:28:29+02:00</updated>
+    <updated>2026-05-14T13:42:32+02:00</updated>
     <author>
         <name>Milen Cholakov</name>
     </author>
@@ -134,7 +134,6 @@
         <content type="html">
             <![CDATA[
                 <p>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </p>
 <div class="gravity-container">
